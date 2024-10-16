@@ -6,7 +6,7 @@
 ```sh
 git clone https://github.com/gigorgu/telegram-avatar-time.git
 ```
-3. в файле config/config.py измените api на api вашей программы созданной на [my.telegram.org](https://my.telegram.org)
+3. в файле .ENV измените api на api вашей программы созданной на [my.telegram.org](https://my.telegram.org)
 4. для тех кто не хочет работать в виртуальном окружении python просто напишите в консоль в любом месте 
 ```sh
 pip install pillow python-dotenv aiofiles telethon
