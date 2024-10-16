@@ -26,3 +26,17 @@ python3 -m venv .venv
 ```sh
 pip install pillow python-dotenv aiofiles telethon
 ```
+.env preset
+про файл env забыл написать крч его создаете и все там напишите вот что снизу написано можете под себя настраивать как угодно
+
+```cs
+API_ID=123456
+API_HASH="1ab2cd3ef4g5"
+SESSION_NAME=NULL
+DEVICE_MODEL=NULL
+SYSTEM_VERSION=NULL
+SYSTEM_LANGUAGE=NULL
+LANGUAGE_CODE=NULL
+APP_VERSION=NULL
+GMT=+3
+```
