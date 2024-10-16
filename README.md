@@ -1,8 +1,28 @@
-Установка:
-  1. Убедитесь, что используете питон версии 3.6+, чтобы успешно запустился код. Узнать можно посредством команды **python -V**.
-  2. Скачайте исходный код. В терминале пропишите **git clone https://github.com/mumtozvalijonov/telegram-avatar-time.git** или просто скачайте [zip](https://github.com/mumtozvalijonov/telegram-avatar-time/archive/master.zip).
+# Будьте очень осторожны, скрипт полностью рабочий но телеграм очень оперативно блокирует за его использование аккаунты
 
-Для успешного запуска необходимо:
-  1. В файле config/config.py изменить реквизиты api на свои.
-  2. Находясь в той же папке, что и requirements.txt ввести в терминале pip install -r requirements.txt.
-  3. Находясь в той же папке, что и main.py ввести в терминале python main.py.
+
+1. скачайте Python версии 3.12.7+
+2. скачайте исходный код 
+```sh
+git clone https://github.com/gigorgu/telegram-avatar-time.git
+```
+3. в файле config/config.py измените api на api вашей программы созданной на [my.telegram.org](https://my.telegram.org)
+4. для тех кто не хочет работать в виртуальном окружении python просто напишите в консоль в любом месте 
+```sh
+pip install pillow python-dotenv aiofiles telethon
+```
+### рекомендации
+1. создайте виртуальное окружение python
+```sh
+python3 -m venv .venv
+```
+
+2. активируйте его (важно чтобы в вашей ос - был powers shell 3+ который может выполнять скрипты самописные)
+```sh
+./.venv/scripts/activate # в случае ошибки тут, вы можете погуглить как дать права для powershell на выполнение custom сценариев
+```
+
+3. если вы все сделали правильно то у вас перед текстом в какой директории вы выполняете этот терминал должно быть написанно `(.venv)`, следовательно вы пишете и ждете выполнения установки
+```sh
+pip install pillow python-dotenv aiofiles telethon
+```

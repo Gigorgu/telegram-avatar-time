@@ -2,3 +2,10 @@ venv/
 .vscode/
 *__pycache__/
 *.session
+
+.venv/
+
+
+*.env
+
+current_time.png
